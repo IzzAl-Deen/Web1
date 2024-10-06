@@ -1,151 +1,180 @@
-.main-header{
-    background-image: url("bgh.jpg") ;
+.main-header {
+    background-image: url(bgh.jpg);
+
     background-size: cover;
-    padding-bottom: 120px;
-    margin: -8px;
+    margin: -9px;
+    padding-bottom: 80px;
+    padding-top: 15px;
+    margin-bottom: 11px;
 }
-.nav{
+.main-header h1:hover{
+    cursor:default;
+    transform: scale(1.2);
+    transition: 1s;
+}
+.main-header ul {
+    font-size: 19px;
+    font-family: sans-serif;
+    margin: 5px;
     text-align: center;
-    font-size: larger;
-    color: rgb(139, 138, 138);
 }
-.nav h1 {
-    transform: scale(2);
-    padding-left: 20px;
-    transition: 2s ease-out;
-}
-.nav ul{
-    padding-top: 9px;
-    margin: 0px;
-    padding-bottom: 30px;
-}
-.nav li{
+.main-header li {
     display: inline;
-    padding: 0 3%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
-.nav a{
+
+.main-header li a {
     padding: 10px;
-    display: inline-block;
-    color: white;
     text-decoration: none;
+    color: lightgrey;
 }
-.nav a:hover{
+.main-header li :hover {
     background-color: gray;
-    transition: 0.3s ease-out;
-}
-
-.about {
-    padding: 10px;
-    padding-bottom: 100px;
-    margin: -10px;
-    background-color:azure;
-}
-p {
-    font-size: large;
-    margin: 30px;
-}
-
-.izz {
-    text-align: center;
-color: rgb(48, 48, 150);
-}
-.mypic{
-    float: right;
-    height: 184px;
-    width: 250px;
-    border-radius: 50%;
-}
-
-.hob li {
-    color:rgb(63, 58, 58) ;
-    font-size: larger;
-}
-.hob a{
-    text-decoration: none;
-    color: rgb(67, 16, 198);
-    background-color: rgb(209, 207, 207);
-}
-.hob li :hover{
-   background-color: green;
-   color: white;
-}
-img{
-    cursor: grab;
-    padding: 30px;
-    height: 80px;
-    width: 120px;
-}
-h3 {
-    background-color: rgb(0, 0, 0);
-    color: gray;
-    font-size: larger;
-    padding: 10px;
-    display: inline-block;
-}
-.unp{
-    background-color: rgba(167, 163, 163, 0.541);
-    text-align: right;
-    margin-right: 60px;
-    float: right;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-   padding-top: 5px;
-   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-.unp b {
-    background-color: rgb(144, 144, 144);
-    display:flex;
-    margin-right:140px ;
-    font-family:'Courier New', Courier, monospace; 
-}
-input {
-    background-color:rgb(174, 174, 174);
     color: black;
-    padding: 12px;    
+    padding: 10px;
+    transition: .3s ease-out;
 }
-button{
-    cursor: pointer;
-    font-size: 12px;
-    transition: 2s;
-    background-color: black;
-    color: rgb(140, 140, 140);
-    padding: 12px;
-    padding-left: 50px;
-    padding-right: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
-}
-.zajel {
-    float: right;
-    height: 200px;
-    width: 240px;
-    border-radius: 50%;
-}
-
-.ranh3 {
+.main-header h1 {
+    color:gray;
     text-align: center;
-    background-color: rgb(51, 71, 81);
-    margin: -10px;
-    padding-bottom: 25px;
-
+    padding-top: 35px;
+    font-weight: bolder;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.footer{
-    background-color: rgb(38, 50, 50);
-    padding: 50px;
-    margin: -10px;
-}
-.footer a{
-    font-size: larger;
-    text-align: center;
-    text-decoration: none;
+
+.main-content h3{
     color: white;
 }
-.footer a:hover{
+.main-content {
+    cursor: pointer;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(97, 97, 97);
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 100px;
     padding-top: 5px;
-    padding-bottom: 5px;
-    background-color: rgb(0, 0, 0);
-    color: green;
-    transition: 0.3s ease-out;
+    border-bottom: 3px solid;
+}
+.main-content p:hover{
+    cursor: text;
+}
+.main-content a {
+    color: black;
+}
+.main-content img {
+    border-radius: 50%;
+    float: right;
+}
+.main-content h3:active{
+    transition: .5s;
+    color:black;
+}
+.main-content:active{
+    border: 9px groove;
+    margin: -5px;
+    padding-left: 20px;
+    padding-top: 5px;
+    transition: 0.3s ;
+    padding-bottom: 100px;
+    color: black;
+    border-color: black;
+}
+.content-hobbies{
+    background:linear-gradient(rgb(0, 0, 0),rgb(21, 43, 68));
+    margin-left: -9px;
+    margin-right: -9px;
+    padding: 10px;
+    color:white;
+}
+.content-hobbies h3{
+    text-align: center;
+    font-size: 22px;
+    padding: 20px;
+    padding-bottom: 40px;
+    background:linear-gradient(rgb(21, 27, 40),rgb(13, 19, 25));
+    color:gray;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: 10px solid black;
+}
+.content-hobbies li {
+    padding: 30px;
+    font-size: 18px;
+}
+.content-hobbies li a {
+    text-decoration: none;
+    color: rgb(63, 0, 237);
+}
+.content-pics {
+    background:linear-gradient(rgb(21, 43, 68),rgb(0, 0, 0));
+    cursor: pointer;
+    padding: 40px;
+    display: flex;
+    padding-left: 30px;
+}
+
+
+.content-question {
+    background:black;
+    color: gray;
+    padding: 30px;
+    margin-left: -9px;
+    margin-right: -9px;
+    margin-bottom: -9px;
+}
+.content-question h2 {
+    font-family: sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+.content-question p {
+    font-size: 18px;
+}
+.content-question input {
+    background-color: white;
+    border: 3px solid gray;
+}
+.content-question input:hover{
+    background-color: gray;
+    transition: .3s;
+}
+.content-question button {
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+.content-question button:hover {
+    background-color: gray;
+    transition: .3s;
+}
+
+.main-footer {
+background-image: url(bgh.jpg);
+background-size: cover;
+margin: -9px;
+padding-bottom: 80px;
+padding-top: 15px;
+color: white;
+}
+.main-footer h4{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+.main-footer p {
+    padding-left: 10px;
+}
+.main-footer a {
+    text-decoration: none;
+    color: gray;
 }
