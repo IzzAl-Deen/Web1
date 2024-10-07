@@ -7,6 +7,7 @@ header {
     width: 100%;
     text-align: center;
     border: black 3px solid;
+    z-index: 100;
 }
 main{
     position: relative;
@@ -38,6 +39,22 @@ ul {
     border: 8px groove #d0d0d0;
     padding: 20px;
 }
+nav {
+    position:sticky;
+    z-index: 98;
+}
+nav ul {
+    display:flex;
+    justify-content: center;
+}
+nav li {
+    margin: 0 15px;
+}
+nav a {
+    text-decoration: none;
+    color: brown;
+}
+
 
 footer {
     border: 8px groove #c0c0c0;
@@ -48,4 +65,5 @@ footer {
     text-align: center;
     background-color: #c0c0c0;
     padding: 10px;
+    z-index: 99;
 }
